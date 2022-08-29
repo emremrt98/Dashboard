@@ -6,6 +6,7 @@ function home() {
     return (
         <div className='Home'>
             <div className='SideBar'> <SideBar /> </div>
+        
             <div className='TopBar'><TopBar /></div>
         </div>
     )
