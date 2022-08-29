@@ -1,0 +1,12 @@
+$primary-color : aliceblue;
+$list-color : gray;
+$menu-color : rgb(46, 46, 46);
+$text-color : rgb(17, 17, 17);
+$icon-color : rgb(55, 15, 146);
+$deneme-color : red;
+
+@mixin display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

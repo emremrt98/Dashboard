@@ -1,0 +1,38 @@
+@import '../../app.scss';
+
+.sideBar {
+   
+    height: 98vh;
+    border-right: 1px solid rgb(199, 199, 199);
+
+    .logo {
+        .sideBar-Header {
+            @include display;
+            color: $icon-color;
+            padding: 10px 0px;
+            border-bottom: 1px solid rgb(199, 199, 199);
+        }
+    }
+
+    .dashboard {
+        .sideBar-title {
+            color: $list-color;
+            font-size: .9rem;
+            margin-left: 10px;
+        }
+
+        .sideBar-menu {
+            @include display;
+            color: $menu-color;
+            justify-content: start;
+            margin-left: 20px;
+            margin-top: -15px;
+            font-size: 1.2rem;
+
+            .sideBar-icons {
+                color: $icon-color;
+                margin-right: 10px;
+            }
+        }
+    }
+}

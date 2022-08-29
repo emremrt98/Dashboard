@@ -1,0 +1,21 @@
+@import "../../app.scss";
+
+.topBar {
+    @include display;
+    justify-content: end;
+    margin-right: 20px;
+    padding: 20px;
+    .topBar-icons {
+        font-size: 1.5rem;
+    }
+
+    .topBar-Dashboard {
+        margin-left: 20px;
+        @include display;
+
+        img {
+            width: 2rem;
+            border-radius: 50%;
+        }
+    }
+}
